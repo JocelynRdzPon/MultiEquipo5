@@ -12,13 +12,3 @@ for letra  in range(len(abecedario),1,-1):
     if letra % 3 == 0:
         abecedario.pop(letra - 1)
 print(abecedario)
-#######################
-
-# alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'ñ', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-# print(alphabet)
-# for i in range(len(alphabet), 1, -1):
-#     if i % 3 == 0:
-#         alphabet.pop(i-1)
-# print(alphabet)
-
-
