@@ -4,4 +4,3 @@
 2. Secuencia de valores de los datos
 3. Secuencias de valores de los datos
    
-°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
