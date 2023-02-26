@@ -10,12 +10,5 @@
 4. Entrada de datos y estructuración. 
 5. Manejo de información 
 6. Razonamiento y prueba de código   
-7. Formateo y conversiones 
-
- 
- 
- 
- 
- 
- 
-   
+7. Formateo y conversiones
+8. #8 Resumen y multi-solución 
