@@ -4,19 +4,11 @@ Escribir un programa que permita al usuario capturar su nombre completo e imprim
 manera inversa letra por letra
 """
 
-##ENTRADA DEL NOMBRE COMPLETO
+##DECLARACION
 nombre = input("Ingrese su nombre completo:")
-invertido = []
-letra = len(nombre)
+invertido = list(nombre)
 
-while letra > 0: 
-    invertido += nombre[letra-1]
-    letra = letra - 1 
-print("El nombre invertido es:", invertido) 
-
-
-##OTRA FORMA
-# nombre = input("Ingrese su nombre completo: ")
-# nombre_invertido=''.join(reversed(nombre))
-# print("El nombre invertido es:", nombre_invertido)
+##PROCEDIMIENTO
+invertido.reverse()
+print("\nNOMBRE INVERTIDO \n",invertido)
 

@@ -5,13 +5,14 @@ YYYY/MM/DD” la segunda “2.- Imprimir  MM/DD/YYYY” una vez seleccionada la 
 del día de hoy en el formato seleccionado.
 """
 from datetime import date
-print("PROGRAMA.    \n       OPCIONES     \n 1.- Imprimir YYYY/MM/DD \n 2.- Imprimir MM/DD/YYYY \n")
+
+print("FORMATO FECHA. SELECCIONA EL FORMATO DE FECHA A SU SELECCION.    \n       OPCIONES     \n 1.- Imprimir YYYY/MM/DD \n 2.- Imprimir MM/DD/YYYY \n")
 
 opcion = int (input("Ingrese la opcion a realizar: "))
 
 opcion1 = date.today().strftime('%Y/%m/%d')
 opcion2 = date.today().strftime('%m/%d/%Y')
 if opcion == 1:
-    print("\n", opcion1, "\n")
+    print("\nFECHA: ", opcion1, "\n")
 elif opcion == 2:
-    print("\n ",opcion2, "\n")
+    print("\nFECHA: ",opcion2, "\n")
