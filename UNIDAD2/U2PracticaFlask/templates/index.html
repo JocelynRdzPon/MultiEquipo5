@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <title>index</title>
+</head>
+<body>
+    <h1>Listado de Usuarios </h1>
+    <div style="text-align: center;" margin-left: 150px;>
+        <a href="{{url_for('agregar')}}"> (+) Agregar Usuario</a>
+        
+    </div>
+    <div>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th width="90">Nombre</th>
+                <th width="90">Apellido</th>
+                <th width="100">Email</th>
+                
+            </tr>
+
+            <tbody>
+                {% for usuario in usuarios %}
+                <tr>
+                    <td>{{usuario.id}}</td>
+                    <td>{{usuario.nombre}}</td>
+                    <td>{{usuario.apellido}}</td>
+                    <td>{{usuario.email}}</td>
+                   <td>  </td>
+
+                    <td width="34"><a href="ver/{{usuario.id}}">ver</a></td>
+                    
+                    <td width="90"><a href="editar/{{usuario.id}}">editar</a></td>
+                    
+                    <td width="100"><a href="eliminar/{{usuario.id}}">Eliminar</a></td>
+                
+                </tr>
+                {%endfor%}
+            </tbody>
+        </table> 
+</div>
+
+
+<h1>Listado de productos </h1>
+<a  style="text-align: center;" href="{{url_for('agregarProducto')}}"> (+) Agregar producto</a></div>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Precio</th>
+        
+    </tr>
+
+    <tbody>
+        {% for producto in productos %}
+        <tr>
+            <td>{{producto.id}}</td>
+            <td>{{producto.nombre}}</td>
+            <td>{{producto.precio}}</td>
+            
+
+            <td><a href="verProduct/{{producto.id}}">ver</a></td>
+            
+            <td><a href="editarProducto/{{producto.id}}">editar</a></td>
+            
+            <td><a href="eliminarProducto/{{producto.id}}">eliminar</a></td>
+        
+        </tr>
+        {%endfor%}
+    </tbody>
+</table> 
+
+</body>
+</html>
