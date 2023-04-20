@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sistema Hospitales</h1>
+    <div>
+        <h2>Pacientes</h2>
+        <a href="nuevo_paciente">Agregar</a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Edad</th>
+                    <th>Peso</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for p in paciente%}
+                    <tr>
+                        <td>{{p.id}}</td>
+                        <td>{{p.nombre}}</td>
+                        <td>{{p.apellido}}</td>
+                        <td>{{p.edad}}</td>
+                        <td>{{p.peso}}</td>
+                        <td>{{p.consulta}}</td>
+                        <td><a href="detalle_paciente/{{paciente.id}}"> Ver detalle</a></td>
+                        <td><a href="editar_paciente/{{paciente.id}}"> Editar paciente</a></td>
+                        <td><a href="eliminar_paciente/{{paciente.id}}"> Eliminar paciente</a></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+
+    </div>
+
+    <div>
+        <h2>Consultas</h2>
+        <a href="nueva_consulta">Agregar</a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Motivo consulta</th>
+                    <th>Tratamiento</th>
+                    <th>Diagnostico</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for c in consulta%}
+                    <tr>
+                        <td>{{c.id}}</td>
+                        <td>{{c.motivoconsulta}}</td>
+                        <td>{{c.tratamiento}}</td>
+                        <td>{{c.diagnostico}}</td>
+                        <td><a href="detalle_consulta/{{consulta.id}}"> Ver detalle</a></td>
+                        <td><a href="editar_consulta/{{consulta.id}}"> Editar consulta</a></td>
+                        <td><a href="eliminar_consulta/{{consulta.id}}"> Eliminar consulta</a></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <h2>Doctores</h2>
+        <a href="nuevo_doctor">Agregar</a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Cedula</th>
+                    <th>Especialidad</th>
+                    <th>Expediente  s</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for d in doctor%}
+                    <tr>
+                        <td>{{d.id}}</td>
+                        <td>{{d.nombre}}</td>
+                        <td>{{d.apellidos}}</td>
+                        <td>{{d.cedula}}</td>
+                        <td>{{d.especialidad}}</td>
+                        <td>{{d.expediente}}</td>
+                        <td><a href="detalle_doctor/{{doctor.id}}"> Ver detalle</a></td>
+                        <td><a href="editar_doctor/{{doctor.id}}"> Editar doctor</a></td>
+                        <td><a href="eliminar_doctor/{{doctor.id}}"> Eliminar doctor</a></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <h2>Expedientes</h2>
+        <a href="nuevo_expediente">Agregar</a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Motivo consulta</th>
+                    <th>Medicamento</th>
+                    <th>Diagnostico</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for e in expediente%}
+                    <tr>
+                        <td>{{e.id}}</td>
+                        <td>{{e.motivoconsulta}}</td>
+                        <td>{{e.medicamento}}</td>
+                        <td>{{e.diagnostico}}</td>
+                        <td><a href="detalle_expediente/{{expediente.id}}"> Ver detalle</a></td>
+                        <td><a href="editar_expediente/{{expediente.id}}"> Editar expediente</a></td>
+                        <td><a href="eliminar_expediente/{{expediente.id}}"> Eliminar expediente</a></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <h2>Hospital</h2>
+        <a href="nuevo_hospital">Agregar</a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>RFC</th>
+                    <th>Domicilio</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for h in hospital%}
+                    <tr>
+                        <td>{{h.id}}</td>
+                        <td>{{h.nombre}}</td>
+                        <td>{{h.rfc}}</td>
+                        <td>{{h.domicilio}}</td>
+                        <td><a href="detalle_hospital/{{expediente.id}}"> Ver detalle</a></td>
+                        <td><a href="editar_hospital/{{expediente.id}}"> Editar hospital</a></td>
+                        <td><a href="eliminar_hospital/{{expediente.id}}"> Eliminar hospital</a></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <h2>Habitacion</h2>
+        <a href="nueva_habitacion">Agregar</a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Numero</th>
+                    <th>Piso</th>
+                    <th>Categoria</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for h in habitacion%}
+                    <tr>
+                        <td>{{h.id}}</td>
+                        <td>{{h.numero}}</td>
+                        <td>{{h.piso}}</td>
+                        <td>{{h.categoria}}</td>
+                        <td><a href="detalle_habitacion/{{habitacion.id}}"> Ver detalle</a></td>
+                        <td><a href="editar_habitacion/{{habitacion.id}}"> Editar habitacion</a></td>
+                        <td><a href="eliminar_habitacion/{{habitacion.id}}"> Eliminar habitacion</a></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
