@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Index</title>
+</head>
+<body>
+    <h1>Listado de Personal </h1>
+    <div style="text-align: center;" margin-left: 150px;>
+        <a href="{{url_for('agregar')}}"> (+) Agregar Personal</a>
+        
+    </div>
+    <div>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th width="90">Nombre</th>
+                <th width="90">Apellido</th>
+                <th width="100">Email</th>
+                
+            </tr>
+
+            <tbody>
+                {% for personal in personals %}
+                <tr>
+                    <td>{{personal.id}}</td>
+                    <td>{{personal.nombre}}</td>
+                    <td>{{personal.apellido}}</td>
+                    <td>{{personal.email}}</td>
+                   <td>  </td>
+
+                    <td width="34"><a href="ver/{{personal.id}}">ver</a></td>
+                    
+                    <td width="90"><a href="editar/{{personal.id}}">editar</a></td>
+                    
+                    <td width="100"><a href="eliminar/{{personal.id}}">Eliminar</a></td>
+                
+                </tr>
+                {%endfor%}
+            </tbody>
+        </table> 
+</div>
+</body>
+</html>
