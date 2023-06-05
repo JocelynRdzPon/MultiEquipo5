@@ -1,0 +1,486 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:30:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:30:55] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:30:55] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:30:56] "GET /static/fondo5.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:31:27] "POST /registro HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:31:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:31:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:31:31] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:31:31] "[36mGET /static/fondo5.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:31:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:31:45] "GET /vistaUsuario?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODM1MDQsImlhdCI6MTY4NTk2MTEwNCwic3ViIjoxfQ.LFZ8AtP89qED3zZR1CHh2g6H_50bIUSAI9eUWxFu2Z8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:33:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:33:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:33:30] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:33:30] "[36mGET /static/fondo5.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:33:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:33:44] "GET /vistaAdmin?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODM2MjQsImlhdCI6MTY4NTk2MTIyNCwic3ViIjoxfQ.IBLpHpMuMcPlW78Prw6zweR1UQE1HLMySp1i6YUs7jk HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:33:44] "GET /static/circle-plus-solid.svg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:34:29] "[32mPOST /agregarTarea HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:34:29] "GET /VerTareasAdmin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:34:29] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:35:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:35:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:35:01] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:35:01] "[36mGET /static/fondo5.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:41:05] "POST /registro HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:41:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:41:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:41:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:41:07] "[36mGET /static/fondo5.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:41:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:41:25] "GET /vistaUsuario?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODQwODUsImlhdCI6MTY4NTk2MTY4NSwic3ViIjoyfQ.Y4lfWytsnenwF6NMniJCS51dMztNP0yhp1fpPdLCZWk HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:41:36] "GET /VerTareas?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODQwODUsImlhdCI6MTY4NTk2MTY4NSwic3ViIjoyfQ.Y4lfWytsnenwF6NMniJCS51dMztNP0yhp1fpPdLCZWk HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:41:59] "GET /VerTareas?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODQwODUsImlhdCI6MTY4NTk2MTY4NSwic3ViIjoyfQ.Y4lfWytsnenwF6NMniJCS51dMztNP0yhp1fpPdLCZWk HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:42:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:42:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:42:03] "[36mGET /static/fondo5.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:42:03] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:49:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:49:39] "GET /vistaAdmin?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODQ1NzksImlhdCI6MTY4NTk2MjE3OSwic3ViIjoxfQ.RCCAbFX9k9L8C6mqgOFsx4Qlyx8xY7aQvhpzAelNnV4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:49:39] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:56:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:56:04] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:56:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:56:04] "[36mGET /static/fondo5.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:56:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:56:10] "GET /vistaAdmin?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODQ5NzAsImlhdCI6MTY4NTk2MjU3MCwic3ViIjoxfQ.Vtk1uCfUl4J-duZbdYQBu1diwpbi1-zyG8DBg6rmHfU HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:56:10] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:56:12] "GET /createUser?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODQ5NzAsImlhdCI6MTY4NTk2MjU3MCwic3ViIjoxfQ.Vtk1uCfUl4J-duZbdYQBu1diwpbi1-zyG8DBg6rmHfU HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:56:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:56:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:56:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:56:19] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:56:19] "[36mGET /static/fondo5.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:56:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:56:32] "GET /vistaAdmin?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODQ5OTIsImlhdCI6MTY4NTk2MjU5Miwic3ViIjoxfQ.0JwYFrGIM3x4OwHMHHfwPCcJDNR2cYO5lAHSbSiJqPs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:56:32] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:56:35] "GET /createUser?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODQ5OTIsImlhdCI6MTY4NTk2MjU5Miwic3ViIjoxfQ.0JwYFrGIM3x4OwHMHHfwPCcJDNR2cYO5lAHSbSiJqPs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:56:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:56:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:56:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:56:43] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:56:43] "[36mGET /static/fondo5.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:57:59] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:57:59] "GET /vistaAdmin?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODUwNzksImlhdCI6MTY4NTk2MjY3OSwic3ViIjoxfQ.FnU2iBfS8mg-uohFRb7piTCInJTom0HL4VQzGVC-ltI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:57:59] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:58:06] "GET /VerTareasAdmin?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODUwNzksImlhdCI6MTY4NTk2MjY3OSwic3ViIjoxfQ.FnU2iBfS8mg-uohFRb7piTCInJTom0HL4VQzGVC-ltI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:58:06] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:58:12] "GET /createUser?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODUwNzksImlhdCI6MTY4NTk2MjY3OSwic3ViIjoxfQ.FnU2iBfS8mg-uohFRb7piTCInJTom0HL4VQzGVC-ltI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:58:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:59:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:59:43] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:59:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:59:43] "[36mGET /static/fondo5.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:59:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:59:49] "GET /vistaAdmin?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODUxODksImlhdCI6MTY4NTk2Mjc4OSwic3ViIjoxfQ.IU6BJ2-QIF6EmdwE6qv2K-tOd9UdaqilZwC0G3kqG7Q HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:59:49] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:59:52] "GET /VerTareasAdmin?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODUxODksImlhdCI6MTY4NTk2Mjc4OSwic3ViIjoxfQ.IU6BJ2-QIF6EmdwE6qv2K-tOd9UdaqilZwC0G3kqG7Q HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:59:52] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:59:53] "GET /createUser HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:59:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 05:59:53] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:01:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:01:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:01:52] "[36mGET /static/fondo5.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:01:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:02:04] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:02:04] "GET /vistaAdmin?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODUzMjQsImlhdCI6MTY4NTk2MjkyNCwic3ViIjoxfQ.OzgNahk3u8uzJUWOnrsyF_n3ArQstd_LSBYg-CMzyxY HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:02:05] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:02:06] "GET /VerTareasAdmin?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODUzMjQsImlhdCI6MTY4NTk2MjkyNCwic3ViIjoxfQ.OzgNahk3u8uzJUWOnrsyF_n3ArQstd_LSBYg-CMzyxY HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:02:06] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:02:07] "GET /createUser?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODUzMjQsImlhdCI6MTY4NTk2MjkyNCwic3ViIjoxfQ.OzgNahk3u8uzJUWOnrsyF_n3ArQstd_LSBYg-CMzyxY HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:02:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:02:08] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:02:35] "POST /registroAdmin HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:15:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:15:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:15:43] "[36mGET /static/fondo5.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:15:43] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:16:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:16:02] "GET /vistaAdmin?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODYxNjIsImlhdCI6MTY4NTk2Mzc2Miwic3ViIjoxfQ.QwK0hRJQrwHY4YoNsvLEyjlLCKxgdfDJ2IiCrm5s0_U HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:16:02] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:26:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:26:15] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:26:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:26:15] "[36mGET /static/fondo5.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:26:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:26:20] "GET /vistaAdmin?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODY3ODAsImlhdCI6MTY4NTk2NDM4MCwic3ViIjoxfQ.Uy5l4Q7XvHzyCG0v2QQxdaLyyvNLG--VMqetL2XduQk HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:26:20] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:31:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:31:39] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:31:39] "[36mGET /static/fondo5.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:31:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:31:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:31:44] "GET /vistaAdmin?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODcxMDQsImlhdCI6MTY4NTk2NDcwNCwic3ViIjoxfQ.1Jdwi0gqIeJs4O0_mJLFK6ALBnUnzCMqSMjo6JuluuA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:31:44] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:33:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:33:06] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:33:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:33:06] "[36mGET /static/fondo5.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:33:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:33:11] "GET /vistaAdmin?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODcxOTEsImlhdCI6MTY4NTk2NDc5MSwic3ViIjoxfQ.WmH8RY3D8l2gvoupTq38NZGAQgnResw1R5Uis3fZI3c HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:33:11] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:33:13] "GET /generarPdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:33:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:33:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:33:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:33:53] "[36mGET /static/fondo5.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:33:53] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:33:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:33:58] "GET /vistaAdmin?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODcyMzgsImlhdCI6MTY4NTk2NDgzOCwic3ViIjoxfQ.iZlzmNPtqQyU5ZMR5ooOa8SbCjbgMr7bC5fCwrPvQsA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:33:58] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:34:00] "GET /generarPdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:34:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:35:07] "GET /vistaAdmin?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODcyMzgsImlhdCI6MTY4NTk2NDgzOCwic3ViIjoxfQ.iZlzmNPtqQyU5ZMR5ooOa8SbCjbgMr7bC5fCwrPvQsA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:35:07] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:35:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:35:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:35:09] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:35:09] "[36mGET /static/fondo5.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:35:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:35:14] "GET /vistaAdmin?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODczMTMsImlhdCI6MTY4NTk2NDkxMywic3ViIjoxfQ.KordAaIGp94zNldx0dmxbe6T57fr5XCZvRv53Cmiqu8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:35:14] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:35:15] "GET /generarPdf HTTP/1.1" 200 -
+ERROR:app:Exception on /generatePdf [GET]
+Traceback (most recent call last):
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\routes\usuario\usuario.py", line 144, in generatePdf
+    usuario.registrado,
+AttributeError: 'Usuario' object has no attribute 'registrado'
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:35:26] "[35m[1mGET /generatePdf HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:36:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:36:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:36:03] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:36:03] "[36mGET /static/fondo5.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:36:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:36:08] "GET /vistaAdmin?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODczNjgsImlhdCI6MTY4NTk2NDk2OCwic3ViIjoxfQ.a_Z-cGFLNLMM2hFtLmuZXzA6jqokyaAyySLr8KR56Ik HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:36:08] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:36:11] "GET /generarPdf HTTP/1.1" 200 -
+ERROR:app:Exception on /generatePdf [GET]
+Traceback (most recent call last):
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\routes\usuario\usuario.py", line 144, in generatePdf
+    usuario.registrado,
+AttributeError: 'Usuario' object has no attribute 'registrado'
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:36:12] "[35m[1mGET /generatePdf HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:37:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:37:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:37:52] "[36mGET /static/fondo5.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:37:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:37:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:37:57] "GET /vistaAdmin?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODc0NzcsImlhdCI6MTY4NTk2NTA3Nywic3ViIjoxfQ.uEOG8skmWapUlSotE6pTXyRzMh6akuRWZzfMuZnggXQ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:37:57] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:37:59] "GET /generarPdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:38:00] "GET /generatePdf HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:39:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:39:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:39:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:39:07] "[36mGET /static/fondo5.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:39:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:39:11] "GET /vistaAdmin?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODc1NTEsImlhdCI6MTY4NTk2NTE1MSwic3ViIjoxfQ.IxH0Et_kfpQ97hIPWngU5qODs-HcssAtOithHmWACaI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:39:11] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:39:13] "GET /generatePdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 06:39:16] "GET /generatePdf HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:14:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:14:14] "GET /vistaAdmin?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODk2NTQsImlhdCI6MTY4NTk2NzI1NCwic3ViIjoxfQ.j1SWNrj1Pk4CQYikfcT04UplyNuDcGOzoVwgjqFwQTM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:14:14] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:14:16] "GET /VerTareasAdmin?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODk2NTQsImlhdCI6MTY4NTk2NzI1NCwic3ViIjoxfQ.j1SWNrj1Pk4CQYikfcT04UplyNuDcGOzoVwgjqFwQTM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:14:16] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:14:19] "GET /createUser?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODk2NTQsImlhdCI6MTY4NTk2NzI1NCwic3ViIjoxfQ.j1SWNrj1Pk4CQYikfcT04UplyNuDcGOzoVwgjqFwQTM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:14:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:14:19] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:14:45] "POST /registroAdmin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:15:00] "POST /registroAdmin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:15:07] "GET /generatePdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:15:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:15:15] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:15:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:15:15] "[36mGET /static/fondo5.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:15:23] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:15:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:15:29] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:15:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:15:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:15:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:15:49] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:15:49] "[36mGET /static/fondo5.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:15:59] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:15:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:16:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:16:14] "GET /vistaUsuario?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODk3NzQsImlhdCI6MTY4NTk2NzM3NCwic3ViIjoyfQ.FkNdv9jw8nl7gPmVYn4QnIBSXtlCPkY6ALx4R9mjerE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:16:16] "GET /VerTareas?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODk3NzQsImlhdCI6MTY4NTk2NzM3NCwic3ViIjoyfQ.FkNdv9jw8nl7gPmVYn4QnIBSXtlCPkY6ALx4R9mjerE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:16:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:16:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:16:29] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:16:29] "[36mGET /static/fondo5.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:16:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:16:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:16:33] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:16:33] "[36mGET /static/fondo5.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:16:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:16:46] "GET /vistaAdmin?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODk4MDYsImlhdCI6MTY4NTk2NzQwNiwic3ViIjoxfQ.KZbQNPCGXG6RhLXvRMIhTxtkBUsyONVF-RTUj3Hl9a0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:16:46] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:16:48] "GET /VerTareasAdmin?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODk4MDYsImlhdCI6MTY4NTk2NzQwNiwic3ViIjoxfQ.KZbQNPCGXG6RhLXvRMIhTxtkBUsyONVF-RTUj3Hl9a0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:16:48] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:17:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:17:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:17:16] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:17:16] "[36mGET /static/fondo5.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:17:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:17:31] "GET /vistaAdmin?auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODk4NTEsImlhdCI6MTY4NTk2NzQ1MSwic3ViIjoxfQ.nmgb3EUhyvV53ngY3kODH0NmuPhQqqhy4CYBKZTBKaU HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:17:32] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:17:35] "GET /VerTareasAdmin?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODk4NTEsImlhdCI6MTY4NTk2NzQ1MSwic3ViIjoxfQ.nmgb3EUhyvV53ngY3kODH0NmuPhQqqhy4CYBKZTBKaU HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:17:35] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:17:50] "GET /VerTareas?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODk3NzQsImlhdCI6MTY4NTk2NzM3NCwic3ViIjoyfQ.FkNdv9jw8nl7gPmVYn4QnIBSXtlCPkY6ALx4R9mjerE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:18:09] "[32mPOST /agregarTarea HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:18:09] "GET /VerTareasAdmin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:18:09] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:18:13] "GET /VerTareasAdmin?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODk4MDYsImlhdCI6MTY4NTk2NzQwNiwic3ViIjoxfQ.KZbQNPCGXG6RhLXvRMIhTxtkBUsyONVF-RTUj3Hl9a0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:18:13] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:18:16] "GET /VerTareas?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODk3NzQsImlhdCI6MTY4NTk2NzM3NCwic3ViIjoyfQ.FkNdv9jw8nl7gPmVYn4QnIBSXtlCPkY6ALx4R9mjerE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:18:32] "GET /generatePdf HTTP/1.1" 200 -
+ERROR:app:Exception on /createUser [GET]
+Traceback (most recent call last):
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\engine\base.py", line 1968, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\engine\default.py", line 920, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.InvalidTextRepresentation: la sintaxis de entrada no es válida para tipo integer: «token invalido»
+LINE 3: WHERE "Usuario".id = 'token invalido' 
+                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\routes\usuario\usuario.py", line 97, in crear_usuario
+    usuario = obtenerInfo(token)
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\auth.py", line 11, in obtenerInfo
+    user = Usuario.query.filter_by(id=resp).first()
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\orm\query.py", line 2747, in first
+    return self.limit(1)._iter().first()  # type: ignore
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\orm\query.py", line 2846, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\orm\session.py", line 2232, in execute
+    return self._execute_internal(
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\orm\session.py", line 2127, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\orm\context.py", line 293, in orm_execute_statement
+    result = conn.execute(
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\engine\base.py", line 1413, in execute
+    return meth(
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\sql\elements.py", line 483, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\engine\base.py", line 1637, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\engine\base.py", line 1987, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\engine\base.py", line 2344, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\engine\base.py", line 1968, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\engine\default.py", line 920, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.DataError: (psycopg2.errors.InvalidTextRepresentation) la sintaxis de entrada no es válida para tipo integer: «token invalido»
+LINE 3: WHERE "Usuario".id = 'token invalido' 
+                             ^
+
+[SQL: SELECT "Usuario".id AS "Usuario_id", "Usuario".nombre AS "Usuario_nombre", "Usuario".apellido AS "Usuario_apellido", "Usuario".email AS "Usuario_email", "Usuario".password AS "Usuario_password", "Usuario".admin AS "Usuario_admin" 
+FROM "Usuario" 
+WHERE "Usuario".id = %(id_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': 'token invalido', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:18:39] "[35m[1mGET /createUser?token=None HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:18:45] "GET /VerTareasAdmin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:18:45] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /createUser [GET]
+Traceback (most recent call last):
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\engine\base.py", line 1968, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\engine\default.py", line 920, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.InvalidTextRepresentation: la sintaxis de entrada no es válida para tipo integer: «token invalido»
+LINE 3: WHERE "Usuario".id = 'token invalido' 
+                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\routes\usuario\usuario.py", line 97, in crear_usuario
+    usuario = obtenerInfo(token)
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\auth.py", line 11, in obtenerInfo
+    user = Usuario.query.filter_by(id=resp).first()
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\orm\query.py", line 2747, in first
+    return self.limit(1)._iter().first()  # type: ignore
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\orm\query.py", line 2846, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\orm\session.py", line 2232, in execute
+    return self._execute_internal(
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\orm\session.py", line 2127, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\orm\context.py", line 293, in orm_execute_statement
+    result = conn.execute(
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\engine\base.py", line 1413, in execute
+    return meth(
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\sql\elements.py", line 483, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\engine\base.py", line 1637, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\engine\base.py", line 1987, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\engine\base.py", line 2344, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\engine\base.py", line 1968, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\52867\Desktop\PROYECTO FINAL\.venv\lib\site-packages\sqlalchemy\engine\default.py", line 920, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.DataError: (psycopg2.errors.InvalidTextRepresentation) la sintaxis de entrada no es válida para tipo integer: «token invalido»
+LINE 3: WHERE "Usuario".id = 'token invalido' 
+                             ^
+
+[SQL: SELECT "Usuario".id AS "Usuario_id", "Usuario".nombre AS "Usuario_nombre", "Usuario".apellido AS "Usuario_apellido", "Usuario".email AS "Usuario_email", "Usuario".password AS "Usuario_password", "Usuario".admin AS "Usuario_admin" 
+FROM "Usuario" 
+WHERE "Usuario".id = %(id_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': 'token invalido', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:18:46] "[35m[1mGET /createUser?token=None HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:18:57] "GET /VerTareasAdmin?token=None HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:18:57] "[36mGET /static/circle-plus-solid.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:19:09] "GET /VerTareasA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:19:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:19:12] "GET /IndexTareas?auth_token= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:19:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:19:13] "GET /IndexTareas?auth_token= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:19:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:19:14] "GET /IndexTareas?auth_token= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:19:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:19:20] "GET /IndexTareas?auth_token= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:19:20] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:19:21] "GET /IndexTareas?auth_token= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:19:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:19:23] "GET /IndexTareas?auth_token= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:19:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:19:25] "GET /IndexTareas?auth_token= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:19:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:19:32] "GET /IndexTareas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:19:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:19:40] "GET /VerTareas?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwODk3NzQsImlhdCI6MTY4NTk2NzM3NCwic3ViIjoyfQ.FkNdv9jw8nl7gPmVYn4QnIBSXtlCPkY6ALx4R9mjerE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:20:42] "GET /IndexTareas?auth_token= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:20:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:20:43] "GET /IndexTareas?auth_token= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:20:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:20:43] "GET /IndexTareas?auth_token= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:20:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:20:44] "GET /IndexTareas?auth_token= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:20:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:20:44] "GET /IndexTareas?auth_token= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:20:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:20:44] "GET /IndexTareas?auth_token= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:20:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:20:44] "GET /IndexTareas?auth_token= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:20:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:20:45] "GET /IndexTareas?auth_token= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:20:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:20:45] "GET /IndexTareas?auth_token= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:20:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:20:46] "GET /IndexTareas?auth_token= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:20:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:30:11] "GET /generatePdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2023 07:30:12] "GET /favicon.ico HTTP/1.1" 200 -
